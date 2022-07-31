@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import {Nav} from "./component/Nav/nav"
+import { LandingPage } from './pages/LandingPage/landingPage';
+export{Nav,LandingPage}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
