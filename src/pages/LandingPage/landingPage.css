@@ -1,0 +1,68 @@
+
+.landing-main
+{
+    height: 100%;
+    width: 100%;
+}
+.carousel-container {
+    height: 60rem;
+    width: 100%;
+    width: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-size: 100% 25rem;
+    background-image: url("https://images.unsplash.com/photo-1513224502586-d1e602410265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+    background-size: cover;
+  
+}
+  
+  .carousel-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: right;
+padding-right:1.5rem ;
+
+    width: 50%;
+    color: white;
+  }
+  
+  .carousel-heading {
+    
+  text-align: right;
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: white;
+  }
+
+  .carousel-desc
+  {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+  }
+  
+
+  .btn
+{
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    /* background-color: var(--primary-color); */
+    background: transparent;
+    border-radius: 7px;
+    border: 5px solid var(--primary-color);
+    color: white;
+    font-weight: 700;
+    -webkit-box-shadow: 10px 7px 18px -3px rgba(128,125,128,0.63);
+    -moz-box-shadow: 10px 7px 18px -3px rgba(128,125,128,0.63);
+    box-shadow: 10px 7px 18px -3px rgba(128,125,128,0.63);
+
+
+}
+
+.btn:hover
+{
+    background-color: var(--primary-color);
+}

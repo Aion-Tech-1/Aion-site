@@ -1,3 +1,5 @@
+import "./nav.css"
+
 const Nav = () =>
 {
 
@@ -8,7 +10,7 @@ const Nav = () =>
 <nav className="nav-bar">
 
 <div className="nav-logo-name">
-            <img className="ecom-logo" src="images/arogyaLogo.png" alt="logo" />
+            <img className="company-logo" src="images/aionLogo.png" alt="logo" />
            
         </div>
 

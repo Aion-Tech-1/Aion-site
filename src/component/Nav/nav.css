@@ -2,5 +2,62 @@
 
 --primary-color: #67E2EA;
 --secondary-color: #000000;
+--standard-margin: 0.5rem;
+--small-margin: 0.2rem;
+--large-margin: 1rem;
 
 }
+
+.nav-bar {
+    /* padding: 0.5rem; */
+    margin-bottom: var(--standard-margin);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: nav;
+    position: sticky;
+    top: 0rem;
+    background-color: white;
+  }
+
+  .nav-logo-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 00.5rem;
+  }
+  .nav-components {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    margin: var(--standard-margin);
+  }
+  
+  .nav-links {
+    text-decoration: none;
+    margin: var(--standard-margin);
+    color: var(--icon-color);
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+  }
+  
+  .nav-links:hover {
+   color: var(--primary-color);
+  }
+  
+  .active {
+    color: var(--secondary-color);
+  }
+  .company-logo {
+    height: 7.5rem;
+    width: 15rem;
+    margin: 0.25rem;
+  }  
+  
