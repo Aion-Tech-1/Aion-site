@@ -1,7 +1,8 @@
  :root{
 
---primary-color: #67E2EA;
---secondary-color: #000000;
+    --primary-color: #67E2EA;
+    /* --secondary-color: #E65525; */
+    --secondary-color: #00778B;
 --standard-margin: 0.5rem;
 --small-margin: 0.2rem;
 --large-margin: 1rem;
@@ -10,6 +11,8 @@
 
 .nav-bar {
     /* padding: 0.5rem; */
+    height: 15rem;
+    width: 100%;
     margin-bottom: var(--standard-margin);
     display: flex;
     flex-flow: row wrap;
@@ -18,7 +21,12 @@
     grid-area: nav;
     position: sticky;
     top: 0rem;
-    background-color: white;
+    
+    top: 0px;
+    background-color: var(--secondary-color);
+    background-color: transparent;
+    
+color: #67E2EA;
   }
 
   .nav-logo-name {
@@ -26,6 +34,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 00.5rem;
+    
   }
   .nav-components {
     display: flex;
@@ -37,7 +46,7 @@
   .nav-links {
     text-decoration: none;
     margin: var(--standard-margin);
-    color: var(--icon-color);
+    color: white;
     font-size: 1.5rem;
     display: flex;
     flex-flow: column;
@@ -45,19 +54,21 @@
     justify-content: center;
     gap: 0.25rem;
     font-weight: 700;
-    border-bottom: 2px solid white;
+ 
+
+    padding: 0.25rem;
   }
   
   .nav-links:hover {
-   color: var(--primary-color);
+    border-bottom: 5px solid black;
+   border-color: var(--primary-color);
+   padding: 0;
   }
   
-  .active {
-    color: var(--secondary-color);
-  }
+
   .company-logo {
-    height: 7.5rem;
-    width: 15rem;
+    height: 12.5rem;
+    width: 25rem;
     margin: 0.25rem;
   }  
   
