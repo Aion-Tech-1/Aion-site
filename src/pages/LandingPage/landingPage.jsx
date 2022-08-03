@@ -125,6 +125,74 @@ const LandingPage = () => {
         </section>
      
 
+     <section className="info-modal one">
+
+
+<div className="info-desc">
+
+<div className="info-heading">Remote Monitoring Services</div>
+
+<div className="info-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+ Voluptatum minus tenetur, odit nemo, doloremque qui earum blanditiis</div>
+
+</div>
+
+<div className="info-disp">
+
+<img src="images/info_img_1.jpg" alt="info-img" className="info-img" />
+
+</div>
+
+     </section>
+
+     <section className="info-modal two">
+
+
+     <div className="info-disp">
+
+<img src="images/info_img_2.jpg" alt="info-img" className="info-img" />
+</div>
+
+<div className="info-desc">
+
+<div className="info-heading">Remote Monitoring Services</div>
+
+<div className="info-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+ Voluptatum minus tenetur, odit nemo, doloremque qui earum blanditiis</div>
+
+</div>
+
+
+
+
+
+
+     </section>
+
+
+
+<section className="demo-section two">
+
+<div className="demo-info">
+  <div className="demo-heading">The Time is Right for the Aion Monitoring System</div>
+
+
+<div className="info-content">
+Learn how your care facility can reduce costs and improve care by implementing the Aion Monitoring System.
+</div>
+
+
+</div>
+
+<div className="demo-btns">
+
+  <button className="req-btn"> REQUEST DEMO</button>
+  <button className="broch-btn"> GET BROCHURE</button>
+</div>
+
+
+</section>
+
       <Footer />
 
     </div>

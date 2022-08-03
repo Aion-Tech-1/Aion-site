@@ -6,7 +6,7 @@
     flex-flow: column ;
     justify-content: center;
     align-items: center;
-    height: 20rem;
+    height: 10rem;
     background-color: var(--primary-color);
 gap: 1.5rem;
 }
@@ -81,4 +81,14 @@ gap: 1.5rem;
 {
     
     color: var(--secondary-color);
+}
+
+.footer-info
+{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
 }

@@ -36,9 +36,9 @@ export const Footer =() =>
 
 </div>
 
-<p> <a href="http://" className="footer-links">Privacy Policy</a> | <a href="http://" className="footer-links">Terms Of Use</a></p>
+<p className="footer-info"> <p className="feat-desc">© 2022 Aion Health Solutions Pvt. Ltd.</p> <a href="http://" className="footer-links">Privacy Policy</a>   <a href="http://" className="footer-links">Terms Of Use</a></p>
 
-<p className="feat-desc">© 2022 Aion Health Solutions Pvt. Ltd.</p>
+
 </footer>
         </div>
     )
