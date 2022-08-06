@@ -7,7 +7,9 @@ import reportWebVitals from './reportWebVitals';
 
 import {Nav} from "./component/Nav/nav"
 import { LandingPage } from './pages/LandingPage/landingPage';
-export{Nav,LandingPage}
+import { LogIn } from './pages/Log-In/logIn';
+import { ContactPage } from './pages/ContactPage/contactPage';
+export{Nav,LandingPage,LogIn,ContactPage}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -19,8 +19,8 @@ const Nav = () =>
 <a className="nav-links active" to="/login" > Product </a>
 <a className="nav-links active" to="/wishlist" > Technology </a>
 <a className="nav-links active" to="/cart" > Contact </a>  
-<a className="nav-links active" to="/cart" > Company </a>    
-<a className="nav-links active" to="/cart" > Login</a>            
+<a className="nav-links active" to="/cart" > Company </a>  
+<a className="login"  to="/cart" > Login</a>            
 
         </div>
 

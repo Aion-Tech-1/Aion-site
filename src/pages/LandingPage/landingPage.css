@@ -65,13 +65,27 @@ padding-right:1.5rem ;
     font-weight: 500;
     color: var(--primary-color);
   }
+  .login
+  {
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    color: black;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
 
+  }
+
+  .login:hover
+  {
+background-color: transparent;
+  }
   .carousel-desc
   {
     text-align: right;
     font-size: 1.5rem;
     font-weight: 500;
     color: white;
+
   }
   
   .btn-comp
