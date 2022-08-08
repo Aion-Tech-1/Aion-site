@@ -31,7 +31,7 @@ export const LogIn = () =>
 
 <div className="img-container">
 
-<img src="images/log-in.png" alt="login-img" className="login-img"/>
+<img src="images/log-in.svg" alt="login-img" className="login-img"/>
 
 </div>
 

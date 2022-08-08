@@ -8,23 +8,6 @@ export const Footer =() =>
         <div>
 <footer className="site-footer">
 
-{/* <div className="contact-container">
-<div className="contact">
-    <span className="contact-icons"><MdEmail /></span>
-    <p className="contact-desc"> <a className="conatct-link" href="mailto:aionhealthsolutions@gmail.com">aionhealthsolutions@gmail.com</a></p>
-</div>
-
-<div className="contact">
-    <span className="contact-icons"><MdLocationPin /></span>
-    <p className="contact-desc"><a className="conatct-link" href="https://goo.gl/maps/um22GmukDiddAyA38">#74, Pipe Line Road, Prashanth Nagar, T Dasarahalli, Bangalore, Karnataka, India, 560057 </a> </p>
-</div>
-
-<div className="contact">
-    <span className="contact-icons"><MdCall /></span>
-    <p className="contact-desc"><a className="conatct-link" href="tel:+919742442708 ">+919742442708 </a> </p>
-</div>
-
-</div> */}
 
 <div className="footer-icons">
 
