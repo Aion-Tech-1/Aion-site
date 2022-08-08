@@ -9,7 +9,8 @@ import {Nav} from "./component/Nav/nav"
 import { LandingPage } from './pages/LandingPage/landingPage';
 import { LogIn } from './pages/Log-In/logIn';
 import { ContactPage } from './pages/ContactPage/contactPage';
-export{Nav,LandingPage,LogIn,ContactPage}
+import { CompanyPage } from './pages/CompanyPage/companyPage';
+export{Nav,LandingPage,LogIn,ContactPage,CompanyPage}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,4 +1,4 @@
-import {LandingPage ,LogIn , ContactPage} from './index';
+import {LandingPage ,LogIn , ContactPage,CompanyPage} from './index';
 
 import './App.css';
 
@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       {/* <LandingPage /> */}
       {/* <LogIn /> */}
-      <ContactPage />
+      {/* <ContactPage /> */}
+      <CompanyPage />
     </div>
   );
 }
