@@ -13,11 +13,15 @@ export const ContactPage = () =>
 
 <section className="demo-container">
 
+<div>
 <div className="contact-heading">CONTACT US</div>
 
-<h2> Thank you for your interest in the AION Health Solution Pvt. Ltd
-     To learn more about our company or products, please complete the form below.</h2>
+<h1> Thank you for your interest in the AION Health Solution Pvt. Ltd
+     To learn more about our company or products, please complete the form below.</h1>
+     </div>
 
+
+     <div className="demo-box">
      <div className="contact-img-container">
 <img src="images/contact-img.svg" className="contact-img" alt="" srcset="" />
 </div>
@@ -54,6 +58,7 @@ export const ContactPage = () =>
 
     <button className="contact-btn enter-btn">SEND</button>
     </form>
+    </div>
 </section>
 
 

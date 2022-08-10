@@ -1,4 +1,8 @@
-import { useState } from "react"
+import { useState } from "react";
+import { Nav } from "../../component/Nav/nav";
+import { Footer } from "../../component/Footer/footer";
+import { FcGoogle } from "react-icons/fc";
+import { GrFacebook } from "react-icons/gr";
 import "./logIn.css"
 export const LogIn = () =>
 {
@@ -25,24 +29,30 @@ export const LogIn = () =>
 
 
     return(
-        <div>
-
+        <div className="page-div">
+<Nav />
 <section className="login-section">
 
-<div className="img-container">
+<div className="one login-img-container">
 
-<img src="images/log-in.svg" alt="login-img" className="login-img"/>
+{/* <img src="images/aionLogo.png" alt="login-img" className="login-img"/> */}
 
+<h1>Welcome</h1>
+
+<p>Start your journey with us</p>
+
+<button className="register-btn">REGISTER</button>
 </div>
 
 
 
-<div className="login-component">
+{/* <div className="login-component"> */}
 
-<div className="login-buttons">
+{/* <div className="login-buttons">
     <button   className="login-btn"  onClick={LogInClickHandler}>Log-In</button>
-    <button   className="login-btn" onClick={SignUpClickHandler}>Register</button>
-</div>
+    
+<button   className="login-btn" onClick={SignUpClickHandler}>Register</button>
+</div> */}
 
 <div style={{display: logInScreern}}  className="login-container">
     <label htmlFor="" className="login-label">
@@ -54,12 +64,22 @@ export const LogIn = () =>
         PASSWORD
         <input type="password"  className="input-fields"/>
     </label>
-
+    
     <button onClick={() => setAlert("block")} className="enter-btn">LOG IN</button>
+   
+<div className="alternate-login">
+
+<span><FcGoogle /></span>
+
+<span><GrFacebook /></span>
+</div>
+
+<a href="" className="login-link">Forgot Password</a>
     </div>
+  
 
 
-<div style={{display: signUpScreern}} className="signup-container">
+{/* <div style={{display: signUpScreern}} className="signup-container">
 
 <label htmlFor="" className="login-label">
         NAME
@@ -90,13 +110,13 @@ export const LogIn = () =>
         <input type="password"  className="input-fields"/>
     </label>
 
-    <button className="enter-btn">REGISTER</button>
+   
  
 
-</div>
+</div> */}
 
 
-</div>
+{/* </div> */}
 
 <button style={{display: alert}} onClick={ () => setAlert("none")} className="alert-box">
 LOGGED IN !
@@ -104,7 +124,7 @@ LOGGED IN !
 
 </section>
 
-
+<Footer />
 
         </div>
     )

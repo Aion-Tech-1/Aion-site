@@ -5,10 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage /> */}
+      <LandingPage />
       {/* <LogIn /> */}
       {/* <ContactPage /> */}
-      <CompanyPage />
+      {/* <CompanyPage /> */}
     </div>
   );
 }
