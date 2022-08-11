@@ -1,14 +1,15 @@
-import {LandingPage ,LogIn , ContactPage,CompanyPage} from './index';
+import {LandingPage ,LogIn , ContactPage,CompanyPage,ProductPage} from './index';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
+      {/* <LandingPage /> */}
       {/* <LogIn /> */}
       {/* <ContactPage /> */}
       {/* <CompanyPage /> */}
+      <ProductPage />
     </div>
   );
 }
