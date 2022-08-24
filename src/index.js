@@ -11,7 +11,8 @@ import { LogIn } from './pages/Log-In/logIn';
 import { ContactPage } from './pages/ContactPage/contactPage';
 import { CompanyPage } from './pages/CompanyPage/companyPage';
 import { ProductPage } from './pages/ProductPage/productPage';
-export{Nav,LandingPage,LogIn,ContactPage,CompanyPage,ProductPage}
+import { TechPage } from './pages/TechPage/techPage';
+export{Nav,LandingPage,LogIn,ContactPage,CompanyPage,ProductPage,TechPage}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

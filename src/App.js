@@ -1,4 +1,4 @@
-import {LandingPage ,LogIn , ContactPage,CompanyPage,ProductPage} from './index';
+import {LandingPage ,LogIn , ContactPage,CompanyPage,ProductPage,TechPage} from './index';
 
 import './App.css';
 
@@ -9,7 +9,8 @@ function App() {
       {/* <LogIn /> */}
       {/* <ContactPage /> */}
       {/* <CompanyPage /> */}
-      <ProductPage />
+      {/* <ProductPage /> */}
+      <TechPage />
     </div>
   );
 }
