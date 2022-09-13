@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1C486D" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path></svg>
+<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="900" height="600" fill="#fff"></rect><path d="M0 451L900 312" fill="none" stroke-linecap="square" stroke-linejoin="bevel" stroke="#1C486D" stroke-width="87"></path></svg>
