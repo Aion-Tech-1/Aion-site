@@ -8,7 +8,9 @@ export const ContactPage = () =>
 
     return(
         <div>
+            <div className="navi-comp">
 <Nav />
+</div>
 <main className="contact-main">
 
 <section className="demo-container">
@@ -78,12 +80,12 @@ export const ContactPage = () =>
     <div className="address-comp">
     <div className="address-1">
 <h2>OFFICE</h2>
-<p> <a className="black conatct-link" href="https://goo.gl/maps/um22GmukDiddAyA38">#74, Pipe Line Road, Prashanth Nagar, T Dasarahalli, Bangalore, Karnataka, India, 560057 </a> </p>
+<p> <a className="conatct-link" href="https://goo.gl/maps/um22GmukDiddAyA38">#74, Pipe Line Road, Prashanth Nagar, T Dasarahalli, Bangalore, Karnataka, India, 560057 </a> </p>
     </div>
 
     <div className="address-1">
     <h2>R&D CENTER</h2>
-    <p> <a className="black conatct-link" href="https://goo.gl/maps/GoUk5AFYrmjsSNZBA">Innovation Centre,Manipal Institute of Technology, MIT Inside Rd, Eshwar Nagar, Manipal, Karnataka 576104
+    <p> <a className="conatct-link" href="https://goo.gl/maps/GoUk5AFYrmjsSNZBA">Innovation Centre,Manipal Institute of Technology, MIT Inside Rd, Eshwar Nagar, Manipal, Karnataka 576104
  </a> </p>
         </div>
         </div>
