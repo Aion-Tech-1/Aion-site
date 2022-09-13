@@ -6,7 +6,9 @@ export const CompanyPage = () =>
 {
     return(
         <div>
+<div className="navi-comp">
 <Nav />
+</div>
 <main className="company-page">
 
 <section className="about-company">
