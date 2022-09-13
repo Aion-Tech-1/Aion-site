@@ -1,3 +1,6 @@
+@import url("./../LandingPage/landingPage.css");
+@import url("./../ProductPage/productPage.css");
+
 .prod-section
 {
 
@@ -8,8 +11,8 @@
     background-image: url("./../../../public/images/prod-wave-1.svg");
     background-size: cover;
     height: 135%;
-    padding: 1rem;
-    margin: var(--standard-margin);
+    /* padding: 1rem; */
+    /* margin: var(--standard-margin); */
 
 }
 
@@ -82,5 +85,38 @@ height: 100%;
 {
     padding: 0.5rem;
     margin: var(--small-margin);
-    color: white;
+    color: black;
 }
+
+.prod-section2
+{
+    display: flex;
+    flex-flow: column ;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./../../../public/images/prod-wave-2.svg");
+    background-size: cover;
+    height: 100%;
+}
+
+
+.big-desc
+{
+    width: 50%;
+    font-size: 3rem;
+    color: black;
+    font-weight:400;
+}
+
+.solution-comp
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: var(--standard-margin) 0 var(--standard-margin) 0;
+    padding: 0.5rem;
+ 
+}
+

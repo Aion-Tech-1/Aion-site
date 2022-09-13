@@ -6,7 +6,7 @@ const Nav = () =>
 
     return(
         <div>
-
+<header className="nav-header">
 <nav className="nav-bar">
 
 <div className="nav-logo-name">
@@ -25,7 +25,7 @@ const Nav = () =>
         </div>
 
 </nav>
-
+</header>
         </div>
     )
 }

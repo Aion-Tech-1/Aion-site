@@ -5,12 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage /> */}
+      <LandingPage />
       {/* <LogIn /> */}
       {/* <ContactPage /> */}
       {/* <CompanyPage /> */}
       {/* <ProductPage /> */}
-      <TechPage />
+      {/* <TechPage /> */}
     </div>
   );
 }

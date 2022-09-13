@@ -1,8 +1,10 @@
 import "./landingPage.css";
 import { Footer } from "../../component/Footer/footer";
 import { Nav } from "../../component/Nav/nav";
+import { FcApproval } from "react-icons/fc";
 const LandingPage = () => {
   return (
+    
     <div className="landing-page">
          
       <main className="landing-main">
@@ -11,7 +13,7 @@ const LandingPage = () => {
        
           <div className="carousel-info">
             <div className="carousel-heading">
-              THE FUTURE OF MEDICAL-GRADE REFRIGERATION
+              THE FUTURE OF MEDICAL-GRADE 
             </div>
 
             <p className="carousel-desc">
@@ -44,9 +46,7 @@ const LandingPage = () => {
 
             <p className="feat-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus, ex! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ducimus minima expedita aspernatur maiores unde
-              laudantium sed eveniet quis! Nihil rem
+              Voluptatibus, ex! 
             </p>
           </div>
 
@@ -61,9 +61,7 @@ const LandingPage = () => {
 
             <p className="feat-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus, ex! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ducimus minima expedita aspernatur maiores unde
-              laudantium sed eveniet quis! Nihil rem
+              Voluptatibus, ex!
             </p>
           </div>
 
@@ -78,16 +76,14 @@ const LandingPage = () => {
 
             <p className="feat-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus, ex! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ducimus minima expedita aspernatur maiores unde
-              laudantium sed eveniet quis! Nihil rem
+              Voluptatibus, ex!
             </p>
           </div>
         </section>
 
         {/* -------- */}
 
-        <section className="stat-container">
+        {/* <section className="stat-container">
 
 <div className="number-sphere">
 3766
@@ -104,7 +100,7 @@ const LandingPage = () => {
 
         </section>
 
-           {/* -------- */}
+       
 
            <section className="stat-container">
 
@@ -122,8 +118,44 @@ const LandingPage = () => {
 183
 </div>
 
-        </section>
+        </section> ---------*/}
+
+
+<section className="prod-2 prod-1">
+
+
+
+<div className="about-prod">
+<div className="prod-name">CENTRAL SERVER AND CLOUD CONNECTION</div>
+
+<div className="prod-desc">
+Aion makes IT simple, handling your server and infrastructure-related needs
+Aion devices and software operate on a private, encrypted network.
+ All data is encrypted in transit and at rest.
+</div>
+
+<div className="product-features">
+
+<div className="feat-points">  <span> <FcApproval /></span> Container orchestration and redundant VPNs ensure system availability</div>
+<div className="feat-points">  <span> <FcApproval /></span> 24/7/365 IT support access for Aion-related issues</div>
+<div className="feat-points"> <span> <FcApproval /></span> Redundant site-to-site VPN's are configured to ensure resource availability</div>
+<div className="feat-points"> <span> <FcApproval /></span>HIPAA-compliant</div>
+
+
+
+</div>
+</div>
+
+<div className="image-comp">
+  <img src="images/cloud-img.png" alt="" className="product-image" srcset="" />
+</div>
+      </section>
+
+
      
+
+
+
 
      <section className="info-modal one">
 
@@ -184,11 +216,10 @@ Learn how your care facility can reduce costs and improve care by implementing t
 
 </div>
 
-<div className="demo-btns">
-
-  <button className="req-btn"> REQUEST DEMO</button>
-  <button className="broch-btn"> GET BROCHURE</button>
-</div>
+<div className="btn-comp">
+           
+           <button className="btn">Explore!</button>
+           </div>
 
 
 </section>

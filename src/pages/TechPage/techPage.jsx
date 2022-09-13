@@ -49,7 +49,15 @@ users adjust to different weighted objects like a spoon, cell phone or water bot
 
       <section className="prod-section2">
 
+<div className="overview">THE AION PATIENT MONITORING SYSTEM</div>
+<div className="big-desc">Improve patient care while effectively managing vital 
+signs monitoring </div>
+<div className="solution-comp">
+  <img src="images/vms-connections-graphic.jpg" alt="" className="product-image" srcset="" />
+</div>
 </section>
+
+
 
         </div>
     )
