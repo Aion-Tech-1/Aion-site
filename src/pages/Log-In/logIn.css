@@ -12,7 +12,11 @@
     }
 .page-div
 {
-    background-color: #F7F7F7;
+    /* background-color: #F7F7F7; */
+    background-image: url("./../../../public/images/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .login-section
 {

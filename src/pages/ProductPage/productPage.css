@@ -94,7 +94,7 @@ border-color: var(--primary-color);
 color: black;
 }
 
-.prod-section
+/* .prod-section
 {
 
     display: flex;
@@ -188,7 +188,7 @@ height: 100%;
     background-image: url("./../../../public/images/prod-wave-2.svg");
     background-size: cover;
     height: 75%;
-}
+} */
 
 
 .prod-1
