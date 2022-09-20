@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { ScrollProvider } from './Context/scrollContext';
 
 import {Nav} from "./component/Nav/nav"
 import { LandingPage } from './pages/LandingPage/landingPage';
@@ -17,7 +17,9 @@ export{Nav,LandingPage,LogIn,ContactPage,CompanyPage,ProductPage,TechPage}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ScrollProvider>
     <App />
+    </ScrollProvider>
   </React.StrictMode>
 );
 

@@ -118,7 +118,7 @@ border-color: var(--secondary-color);
     -moz-box-shadow: 10px 7px 18px -3px rgba(128,125,128,0.63);
     box-shadow: 10px 7px 18px -3px rgba(128,125,128,0.63);
 margin: 1rem;
-
+transition: all 0.4s ease-in-out;
 }
 
 .btn:hover
@@ -126,6 +126,7 @@ margin: 1rem;
     background-color: var(--secondary-color);
     border: 5px solid var(--secondary-color);
     color: white;
+   transform: scale(1.15);
 }
 .feature-logo
 {
@@ -340,3 +341,19 @@ background-size: cover;
     background-color: #9AAEBE;
     /* background-color: #F7F7F7; */
 }
+
+
+.info-disp
+{
+
+    animation-name: example;
+    animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+/* @keyframes example {
+
+    from{background-color: #67E2EA;top: 10px; bottom: 5px; }
+    to{background-color: black;top: 10px; bottom: 5px; }
+    
+} */

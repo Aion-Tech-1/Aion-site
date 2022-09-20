@@ -1,13 +1,22 @@
+import { useState } from "react"
 import "./nav.css"
-
+import { useScroll } from "../../Context/scrollContext"
 const Nav = () =>
 {
+const {bgColor} = useScroll()
 
+
+
+
+    // const scrollHandler= () =>
+    // {
+    //     setBgColor(navBgColor)
+    // }
 
     return(
         <div>
-<header className="nav-header">
-<nav className="nav-bar">
+<header  className="nav-header">
+<nav style={{backgroundColor: bgColor}} className="nav-bar">
 
 <div className="nav-logo-name">
             <img className="company-logo" src="images/aionLogo.png" alt="logo" />

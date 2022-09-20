@@ -2,12 +2,23 @@ import "./landingPage.css";
 import { Footer } from "../../component/Footer/footer";
 import { Nav } from "../../component/Nav/nav";
 import { FcApproval } from "react-icons/fc";
+import { useScroll } from "../../Context/scrollContext";
 const LandingPage = () => {
+
+  const { setBgColor} = useScroll()
+
+  const navBgColor = "#67E2EA"
+
+
+  
+
+
+
   return (
     
-    <div className="landing-page">
+    <div  className="landing-page">
          
-      <main className="landing-main">
+      <main  className="landing-main">
       <Nav />
         <section className="carousel-container">
        
@@ -147,7 +158,7 @@ Aion devices and software operate on a private, encrypted network.
 </div>
 
 <div className="image-comp">
-  <img src="images/cloud-img.png" alt="" className="product-image" srcset="" />
+  <img src="images/our-solution.png" alt="" className="product-image" srcset="" />
 </div>
       </section>
 
