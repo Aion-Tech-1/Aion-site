@@ -1,40 +1,51 @@
 import { useState } from "react"
 import "./nav.css"
-import { useScroll } from "../../Context/scrollContext"
+
 const Nav = () =>
 {
-const {bgColor} = useScroll()
 
+const [navBar , setNavBar] = useState(false)
+const [imgSrc , setImgSrc] = useState("images/aionLogo.png")
+const [clr , setClr] = useState("white")
+const changeBackground = () =>
+{
+    if(window.scrollY >= 660)
+    {
+        setNavBar(true)
+        setImgSrc("images/aionLogo2.png")
+        setClr("black")
+    }
+    else{
+        setNavBar(false)
+        setImgSrc("images/aionLogo.png")
+        setClr("white")
+    }
+}
 
-
-
-    // const scrollHandler= () =>
-    // {
-    //     setBgColor(navBgColor)
-    // }
-
+window.addEventListener('scroll',changeBackground)
+   
     return(
         <div>
-<header  className="nav-header">
-<nav style={{backgroundColor: bgColor}} className="nav-bar">
+{/* <header  className="nav-header"> */}
+<nav  className={navBar ? "nav-bar active": "nav-bar"}>
 
 <div className="nav-logo-name">
-            <img className="company-logo" src="images/aionLogo.png" alt="logo" />
+            <img className="company-logo" src={imgSrc} alt="logo" />
            
         </div>
 
 
         <div className="nav-components">
-<a className="nav-links active" to="/login" > Product </a>
-<a className="nav-links active" to="/wishlist" > Technology </a>
-<a className="nav-links active" to="/cart" > Contact </a>  
-<a className="nav-links active" to="/cart" > Company </a>  
-<a className="login"  to="/cart" > Login</a>            
+<a className="nav-links active" to="/login" style={{color: clr}}> Product </a>
+<a className="nav-links active" to="/wishlist" style={{color: clr}}> Technology </a>
+<a className="nav-links active" to="/cart" style={{color: clr}}> Contact </a>  
+<a className="nav-links active" to="/cart" style={{color: clr}}> Company </a>  
+<a className="login-btn"  to="/cart" > Login</a>            
 
         </div>
 
 </nav>
-</header>
+{/* </header> */}
         </div>
     )
 }

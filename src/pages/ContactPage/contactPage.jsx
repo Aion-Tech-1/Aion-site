@@ -8,10 +8,12 @@ export const ContactPage = () =>
 
     return(
         <div>
-            <div className="navi-comp">
-<Nav />
-</div>
+            
+            <div className="navbar-comp">
+            <Nav style={{backgroundColor: "#bcc5cc"}}/>
+          </div>
 <main className="contact-main">
+
 
 <section className="demo-container">
 
@@ -33,29 +35,29 @@ export const ContactPage = () =>
 <label htmlFor="" className="login-label">
         NAME
         <div className="name-input">
-        <input type="text" placeholder="First Name"  className="contact-fields"/>
-        <input type="text" placeholder="Last Name"  className="contact-fields"/>
+        <input type="text" placeholder="First Name"  className="contact-fields-box"/>
+        <input type="text" placeholder="Last Name"  className="contact-fields-box"/>
         </div>
     </label>
 
     <label htmlFor="" className="login-label">
         ORGANIZATION
-        <input type="text"  className="contact-fields"/>
+        <input type="text" placeholder="Organization Name"  className="contact-fields-box"/>
     </label>
 
     <label htmlFor="" className="login-label">
        MOBILE NUMBER
-        <input type="number"  className="contact-fields"/>
+        <input type="number" placeholder="Enter Your Mobile No"  className="contact-fields-box"/>
     </label>
 
     <label htmlFor="" className="login-label">
        E-MAIL
-        <input type="email"  className="contact-fields"/>
+        <input type="email" placeholder="Enter Your E-Mail" className="contact-fields-box"/>
     </label>
 
 <label htmlFor="" className="message login-label">
     MESSAGE
-<input type="text"  className="message contact-fields"/>
+<input type="text"  className="message contact-fields-box"/>
 </label>
 
     <button className="contact-btn enter-btn">SEND</button>
@@ -64,7 +66,7 @@ export const ContactPage = () =>
 </section>
 
 
-<section className="contact-comp one">
+<section className="contact-comp ">
 
 <div className="contact-info">
 <h1>CONTACT US</h1>

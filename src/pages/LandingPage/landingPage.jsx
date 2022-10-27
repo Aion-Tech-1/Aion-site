@@ -2,30 +2,43 @@ import "./landingPage.css";
 import { Footer } from "../../component/Footer/footer";
 import { Nav } from "../../component/Nav/nav";
 import { FcApproval } from "react-icons/fc";
-import { useScroll } from "../../Context/scrollContext";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import DarkVariantExample from "../../bootSlider";
+import Typewriter from "typewriter-effect"
+import { useEffect } from "react";
+
 const LandingPage = () => {
 
-  const { setBgColor} = useScroll()
 
-  const navBgColor = "#67E2EA"
-
-
-  
-
-
+useEffect(()=>{
+  AOS.init({duration: 2000})
+},[])
 
   return (
     
     <div  className="landing-page">
-         
+            <Nav />
       <main  className="landing-main">
-      <Nav />
+    
         <section className="carousel-container">
        
           <div className="carousel-info">
             <div className="carousel-heading">
-              THE FUTURE OF MEDICAL-GRADE 
-            </div>
+            THE FUTURE OF MEDICAL-GRADE
+       
+            <Typewriter 
+  options={{
+    strings: ["BEDSIDE MONITOR", "MEDICAL-GRADE","CLOUD SYSTEMS"],
+    autoStart: true,
+    loop: true,
+    skipAddStyles:true,
+  }} 
+/>
+               
+</div>
+          
+        
 
             <p className="carousel-desc">
               A Portable temperature-regulated carrier for transport of
@@ -37,7 +50,7 @@ const LandingPage = () => {
             </p>
             <div className="btn-comp">
            
-              <button className="btn">Explore!</button>
+              <button className="landing-btn">Explore!</button>
               </div>
           </div>
         </section>
@@ -46,7 +59,8 @@ const LandingPage = () => {
           <h1>FEATURES</h1>
         </div>
         <section className="feature-section">
-          <div className="feature-box">
+          <div  className="feature-box">
+
             <img
               className="feature-logo"
               src="images/scientist.svg"
@@ -61,7 +75,7 @@ const LandingPage = () => {
             </p>
           </div>
 
-          <div className="feature-box">
+          <div  className="feature-box">
             <img
               className="feature-logo"
               src="images/medicalCare.svg"
@@ -76,7 +90,7 @@ const LandingPage = () => {
             </p>
           </div>
 
-          <div className="feature-box">
+          <div  className="feature-box">
             <img
               className="feature-logo"
               src="images/CHECK.svg"
@@ -91,7 +105,7 @@ const LandingPage = () => {
             </p>
           </div>
         </section>
-
+        
         {/* -------- */}
 
         {/* <section className="stat-container">
@@ -136,7 +150,7 @@ const LandingPage = () => {
 
 
 
-<div className="about-prod">
+<div data-aos="slide-right" className="about-prod">
 <div className="prod-name">CENTRAL SERVER AND CLOUD CONNECTION</div>
 
 <div className="prod-desc">
@@ -157,18 +171,18 @@ Aion devices and software operate on a private, encrypted network.
 </div>
 </div>
 
-<div className="image-comp">
+<div data-aos="slide-left" className="image-comp">
   <img src="images/our-solution.png" alt="" className="product-image" srcset="" />
 </div>
       </section>
 
 
-     
+      < DarkVariantExample/>
 
 
 
 
-     <section className="info-modal one">
+     <section data-aos="fade-right" className="info-modal one">
 
 
 <div className="info-desc">
@@ -188,7 +202,7 @@ Aion devices and software operate on a private, encrypted network.
 
      </section>
 
-     <section className="info-modal two">
+     <section data-aos="fade-left" className="info-modal two">
 
 
      <div className="info-disp">
@@ -214,7 +228,7 @@ Aion devices and software operate on a private, encrypted network.
 
 
 
-<section className="demo-section two">
+<section className="demo-section ">
 
 <div className="demo-info">
   <div className="demo-heading">The Time is Right for the Aion Monitoring System</div>
@@ -229,7 +243,7 @@ Learn how your care facility can reduce costs and improve care by implementing t
 
 <div className="btn-comp">
            
-           <button className="btn">Explore!</button>
+           <button className="landing-btn">Explore!</button>
            </div>
 
 
@@ -237,6 +251,9 @@ Learn how your care facility can reduce costs and improve care by implementing t
 
       <Footer />
 
+   
+
+  
     </div>
   );
 };

@@ -1,0 +1,38 @@
+@import url("./pages/LandingPage/landingPage.css");
+
+
+
+.slide-box
+{
+    padding: 00.5rem;
+height: 20rem;
+width: 10rem;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+background-color: var(--primary-color);
+border-radius: 10px;
+color: black;
+
+margin: 0 0.5rem 0 0.5rem;
+}
+
+.feature-logo
+{
+    height: 40%;
+    width: 1-0%;
+}
+
+.logo-container
+{
+    width: 50%;
+    height: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
